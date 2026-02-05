@@ -1,0 +1,24 @@
+1 name: carkey_jelinic
+2 description: A car key app with BLE connectivity.
+3 publish_to: 'none'
+4 version: 1.0.0+1
+5 
+6 environment:
+7   sdk: ^3.10.7
+8 
+9 dependencies:
+10  flutter:
+11    sdk: flutter
+12  flutter_reactive_ble: ^5.2.0
+13  permission_handler: ^11.3.1
+14  provider: ^6.1.2
+15  device_info_plus: ^10.0.0
+16  geolocator: ^10.1.0
+17
+18 dev_dependencies:
+19  flutter_test:
+20    sdk: flutter
+21  flutter_lints: ^6.0.0
+22
+23 flutter:
+24  uses-material-design: true
